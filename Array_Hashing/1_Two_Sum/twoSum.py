@@ -1,5 +1,5 @@
-class Solution(object):
-    def twoSum(self, nums, target):
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashTable = dict()
 
         for i in range(len(nums)):
